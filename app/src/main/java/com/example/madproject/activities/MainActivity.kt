@@ -215,7 +215,7 @@ class MainActivity : AppCompatActivity() {
                                     putString("userPassword", foundUser?.password)
                                     putBoolean("isAdmin", foundUser?.Admin!!)
                                     putString("loggedInUser", "FIREBASE_USER")
-                                    putBoolean("isLoggedIn", false)
+                                    putBoolean("isLoggedIn", true)
                                     apply()
                                 }
                                 //hidingProgressbar
@@ -414,7 +414,7 @@ class MainActivity : AppCompatActivity() {
                                         putString("userBio", foundUser?.bio)
                                         putString("googleID", foundUser?.userId)
                                         putString("loggedInUser", "GOOGLE_USER")
-                                        putBoolean("isLoggedIn", false)
+                                        putBoolean("isLoggedIn", true)
                                         apply()
                                     }
 
